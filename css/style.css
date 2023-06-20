@@ -1,9 +1,9 @@
 @charset "UTF-8";
 
+
 @import url(https://fonts.googleapis.com/css?family=Noto+Sans:regular,500,600,700);
 
 @import url(https://fonts.googleapis.com/css?family=Caveat:regular&display=swap&display=swap);
-
 
 * {
   padding: 0px;
@@ -4908,6 +4908,10 @@ li::marker {
   max-width: 100%;
 }
 
+.about__title {
+  max-width: 25rem;
+}
+
 .about__title:not(:last-child) {
   margin-bottom: 2.5rem;
 }
@@ -6344,9 +6348,6 @@ li::marker {
           justify-content: space-between;
   width: 11.6875rem;
   padding: 0.625rem 1.0625rem 0.4375rem 1.0625rem;
-  /* -webkit-transition: background 0.3 color ease 0s;
-  -o-transition: background 0.3 color ease 0s;
-  transition: background 0.3 color ease 0s; */
 }
 
 .filter__link span {
